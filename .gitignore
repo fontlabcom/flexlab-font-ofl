@@ -2,7 +2,8 @@
 venv
 build.stamp
 proof
-fonts
+build
+temp
 node_modules
 package-lock.json
 package.json

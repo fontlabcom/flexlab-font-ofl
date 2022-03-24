@@ -1,0 +1,4 @@
+[submodule "sources/roboto-flex"]
+	path = sources/roboto-flex
+	url = https://github.com/twardoch/roboto-flex/
+	branch = fontlabcom-flexlab
