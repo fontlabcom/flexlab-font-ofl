@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="200" name="weight" tag="wght" maximum="1000" minimum="200">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source name="Bold" filename="masters/FlexlabVF-Bold.ufo" familyname="Flexlab VF" stylename="Bold">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source name="ExtraBlack" filename="masters/FlexlabVF-ExtraBlack.ufo" familyname="Flexlab VF" stylename="ExtraBlack">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </source>
+  <source name="ExtraLight" filename="masters/FlexlabVF-ExtraLight.ufo" familyname="Flexlab VF" stylename="ExtraLight">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="200"/>
+   </location>
+  </source>
+  <source name="Regular" filename="masters/FlexlabVF-Regular.ufo" familyname="Flexlab VF" stylename="Regular">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance name="ExtraLight" filename="instances/FlexlabVF-ExtraLight.ufo" familyname="Flexlab" stylename="ExtraLight">
+   <location>
+    <dimension name="weight" xvalue="200"/>
+   </location>
+  </instance>
+  <instance name="Light" filename="instances/FlexlabVF-Light.ufo" familyname="Flexlab" stylename="Light">
+   <location>
+    <dimension name="weight" xvalue="300"/>
+   </location>
+  </instance>
+  <instance name="Regular" filename="instances/FlexlabVF-Regular.ufo" familyname="Flexlab" stylename="Regular">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance name="Medium" filename="instances/FlexlabVF-Medium.ufo" familyname="Flexlab" stylename="Medium">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance name="SemiBold" filename="instances/FlexlabVF-SemiBold.ufo" familyname="Flexlab" stylename="SemiBold">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance name="Bold" filename="instances/FlexlabVF-Bold.ufo" familyname="Flexlab" stylename="Bold">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+  <instance name="ExtraBold" filename="instances/FlexlabVF-ExtraBold.ufo" familyname="Flexlab" stylename="ExtraBold">
+   <location>
+    <dimension name="weight" xvalue="800"/>
+   </location>
+  </instance>
+  <instance name="Black" filename="instances/FlexlabVF-Black.ufo" familyname="Flexlab" stylename="Black">
+   <location>
+    <dimension name="weight" xvalue="900"/>
+   </location>
+  </instance>
+  <instance name="ExtraBlack" filename="instances/FlexlabVF-ExtraBlack.ufo" familyname="Flexlab" stylename="ExtraBlack">
+   <location>
+    <dimension name="weight" xvalue="1000"/>
+   </location>
+  </instance>
+ </instances>
+ <rules>
+  <rule>
+   <sub name="dollar" with="dollar.rvrn"/>
+   <conditionset>
+    <condition name="weight" minimum="700"/>
+   </conditionset>
+  </rule>
+ </rules>
+</designspace>
